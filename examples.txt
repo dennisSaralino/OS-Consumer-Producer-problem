@@ -1,0 +1,55 @@
+Here are three examples of the terminal log after running producer and consumer.
+
+Example #1
+
+producer produced 54
+producer produced 9
+consumer removed 54
+consumer removed 9
+turn number: 1
+producer produced 85
+producer produced 20
+consumer removed 85
+consumer removed 20
+turn number: 2
+producer produced 58
+producer produced 52
+consumer removed 58
+consumer removed 52
+turn number: 3
+
+Example #2
+
+producer produced 26
+producer produced 42
+consumer removed 26
+consumer removed 42
+turn number: 1
+producer produced 25
+producer produced 60
+consumer removed 25
+consumer removed 60
+turn number: 2
+producer produced 14
+producer produced 36
+consumer removed 14
+consumer removed 36
+turn number: 3
+
+Example #3
+
+producer produced 60
+producer produced 5
+consumer removed 60
+consumer removed 5
+turn number: 1
+producer produced 25
+producer produced 16
+consumer removed 25
+consumer removed 16
+turn number: 2
+producer produced 59
+producer produced 97
+consumer removed 59
+consumer removed 97
+turn number: 3
