@@ -11,9 +11,9 @@ int main(int argc, char* argv[]) {
     int shared = shm_open("/SharedMemory2", O_CREAT | O_RDWR, S_IXUSR | S_IRUSR | S_IWUSR);
     if (shared == -1)
         printf("error on shm_open()\n");
-    printf("hello. %i\n", shared);
-    printf("error: %i\n", errno);
-    printf("error: %s\n", strerror(errno));
+    // printf("hello. %i\n", shared);
+    // printf("error: %i\n", errno);
+    // printf("error: %s\n", strerror(errno));
 
     if (ftruncate(shared, sizeof(struct table)) == -1)
         printf("error on ftruncate()");
@@ -60,7 +60,7 @@ int main(int argc, char* argv[]) {
         ++turn;
 
         sem_post(&producer->filled);
-        printf("hello %i\n", turn);
+        // printf("hello %i\n", turn);
     }
     
     return 0;

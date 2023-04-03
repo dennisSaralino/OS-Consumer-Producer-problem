@@ -30,7 +30,7 @@ int main() {
         ++turn;
         printf("turn number: %i\n", turn);
         sem_post(&consumer->empty);
-        printf("hello %i\n", turn);
+        // printf("hello %i\n", turn);
 
     }
     
